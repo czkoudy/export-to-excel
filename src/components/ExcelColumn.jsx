@@ -1,4 +1,4 @@
-import get from 'lodash.get';
+import { get } from 'lodash-es';
 import { useEffect, useState } from 'react';
 
 const ExcelColumn = ({ colIndex, rowIndex, colData, worksheet, entry }) => {

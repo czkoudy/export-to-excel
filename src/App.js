@@ -59,7 +59,7 @@ const App = () => {
       "locale": "",
       "location": "27b20800-8207-4b12-8567-901b0ebe2665",
       "locationAutomatic": "1",
-      "name": "323650",
+      "loginAccessCode": "323650",
       "loginIdleTime": "0",
       "logoUrl": "",
       "mail": "",
@@ -133,7 +133,9 @@ const App = () => {
       },
       data: formatUsers,
       keys: [{
-        label: "telephoneNumber",
+        label: "formatCn",
+        formatValue: (val) => val[1],
+
       }, {
         label: "cn",
       }]
@@ -147,7 +149,6 @@ const App = () => {
       },
       label: "Test"
     }
-
   }
 
   return (
